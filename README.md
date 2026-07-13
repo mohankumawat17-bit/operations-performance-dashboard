@@ -1,75 +1,127 @@
-# Operations KPI Dashboard (SQL + Power BI)
+# Operations Performance Dashboard
 
 ## Project Overview
-This project focuses on analyzing operational performance data using SQL and Power BI.
-A SQL view is used to prepare summarized KPI data, which is directly connected to Power BI
-for reporting and visualization.
 
-The dashboard helps track productivity, completion efficiency, and error rates
-at the department level.
+This project analyzes operational performance data using **Excel, SQL, and Power BI**. SQL is used to prepare KPI data, and Power BI is used to build an interactive dashboard for performance monitoring.
+
+The dashboard helps management monitor productivity, task completion, and error rates across departments.
 
 ---
 
-## Tools & Technologies
-- MySQL
-- SQL
-- Power BI
-- Excel
+## Business Objective
+
+The objective of this project is to:
+
+* Monitor operational performance
+* Compare department productivity
+* Track task completion and error rates
+* Support data-driven decision making
 
 ---
 
-## Dataset
-The dataset contains daily operational data with the following fields:
-- Date
-- Employee Name
-- Department
-- Tasks Assigned
-- Tasks Completed
-- Errors
-- Hours Worked
+## Dataset Information
+
+The dataset contains operational records with the following fields:
+
+* Date
+* Employee Name
+* Department
+* Tasks Assigned
+* Tasks Completed
+* Errors
+* Hours Worked
 
 ---
 
-## SQL Work
-SQL was used to:
-- Aggregate operational data by department
-- Calculate KPIs such as:
-  - Total Tasks Assigned
-  - Total Tasks Completed
-  - Completion Percentage
-  - Error Percentage
-- Create a SQL View (`operations_kpi_summary`) for reporting
+## Tools Used
 
-The SQL view acts as the data source for the Power BI dashboard.
+* Microsoft Excel
+* MySQL
+* SQL
+* Power BI
 
 ---
 
-## Power BI Dashboard
-The Power BI dashboard includes:
-- KPI cards for Total Tasks Assigned, Total Tasks Completed, Completion %, and Error %
-- Bar chart showing Completion % by Department
-- Donut chart showing Error % distribution by Department
-- Department-wise summary table
-- Department slicer for interactive filtering
+## Project Workflow
+
+Excel Dataset
+
+↓
+
+SQL Data Preparation
+
+↓
+
+SQL View Creation
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Business Insights
+
+---
+
+## Dashboard Features
+
+* KPI Cards
+
+  * Total Tasks Assigned
+  * Total Tasks Completed
+  * Completion %
+  * Error %
+
+* Department-wise Completion Analysis
+
+* Error Distribution by Department
+
+* Department Performance Summary
+
+* Interactive Department Filter
 
 ---
 
 ## Key Insights
-- IT department shows higher task volume and better completion efficiency.
-- HR department has a comparatively higher error rate.
-- Department-level filtering helps quickly compare performance.
+
+* IT department achieved the highest task completion.
+* HR department recorded a higher error percentage.
+* Department-level analysis helps identify performance differences.
+* Interactive filtering allows quick comparison between departments.
 
 ---
 
-## Project Outcome
-This project demonstrates an end-to-end analytics workflow:
-Excel → SQL → SQL View → Power BI Dashboard
+## Skills Demonstrated
 
-It follows an industry-style approach where SQL handles data logic
-and Power BI handles visualization and reporting.
+* Data Cleaning
+* SQL Query Writing
+* SQL View Creation
+* KPI Development
+* Data Visualization
+* Dashboard Design
+* Business Reporting
+
+---
+
+## Project Structure
+
+```text
+Operations-Performance-Dashboard
+│
+├── Excel
+├── SQL
+├── Power BI
+├── Screenshots
+└── README.md
+```
 
 ---
 
 ## Author
-Mohan Lal Kumawat  
-Data Analyst | SQL • Power BI • Excel
+
+**Mohan Lal Kumawat**
+
+**Aspiring Business Data Analyst**
+
+**Skills:** Excel | SQL | Power BI | Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
